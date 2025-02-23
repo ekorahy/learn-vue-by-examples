@@ -18,6 +18,13 @@ import SVGGraph from './components/practical/SVG Graph/SVGGraph.vue'
 import ModalWithTransitions from './components/practical/Modal with Transitions/ModalWithTransitions.vue'
 import ListWithTransitions from './components/practical/ListWithTransitions.vue'
 import TodoMVC from './components/practical/TodoMVC.vue'
+
+// 7 GUIs
+import CounterComponent from './components/7 GUIs/CounterComponent.vue'
+import TemperatureConverter from './components/7 GUIs/TemperatureConverter.vue'
+import FlightBooker from './components/7 GUIs/FlightBooker.vue'
+import TimerComponent from './components/7 GUIs/TimerComponent.vue'
+import CRUD from './components/7 GUIs/CRUD.vue'
 </script>
 
 <template>
@@ -41,5 +48,12 @@ import TodoMVC from './components/practical/TodoMVC.vue'
     <CollapsibleSection title="Modal with Transitions"><ModalWithTransitions /></CollapsibleSection>
     <CollapsibleSection title="List with Transitions"><ListWithTransitions /></CollapsibleSection>
     <CollapsibleSection title="TodoMVC"><TodoMVC /></CollapsibleSection>
+  </CollapsibleSection>
+  <CollapsibleSection title="7 GUIs">
+    <CollapsibleSection title="Counter"><CounterComponent /></CollapsibleSection>
+    <CollapsibleSection title="Temperature Converter"><TemperatureConverter /></CollapsibleSection>
+    <CollapsibleSection title="Flight Booker"><FlightBooker /></CollapsibleSection>
+    <CollapsibleSection title="Timer"><TimerComponent /></CollapsibleSection>
+    <CollapsibleSection title="CRUD"><CRUD /></CollapsibleSection>
   </CollapsibleSection>
 </template>
